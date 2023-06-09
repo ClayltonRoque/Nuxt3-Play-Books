@@ -1,0 +1,15 @@
+html {
+  // background-color: $base-background;
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $base-border;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $brand-blue;
+    border-radius: 999px;
+  }
+}
